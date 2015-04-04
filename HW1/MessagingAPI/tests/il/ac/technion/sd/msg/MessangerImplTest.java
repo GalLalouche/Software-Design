@@ -10,7 +10,7 @@ import il.ac.technion.sd.msg.Messenger;
 import org.junit.After;
 import org.junit.Test;
 
-public class MessangerImplTests {
+public class MessangerImplTest {
 
 	private final MessangerFactory factory = new MessangerFactory();
 
