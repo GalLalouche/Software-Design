@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>software-design</groupId>
-  <artifactId>MessagingAPI</artifactId>
+  <artifactId>MessagingApi</artifactId>
   <versioning>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20150404195504</lastUpdated>
+    <lastUpdated>20150404195602</lastUpdated>
   </versioning>
 </metadata>
