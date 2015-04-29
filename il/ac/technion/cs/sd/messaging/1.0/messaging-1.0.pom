@@ -3,9 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>il.ac.technion.cs.sd</groupId>
 	<artifactId>messaging</artifactId>
-	<version>2.0</version>
+	<version>1.0</version>
 	<packaging>jar</packaging>
-	<description>An updated version of basic messaging API for sending messages between java process</description>
+	<description>A basic messaging API for sending messages between java process</description>
 	<build>
 		<finalName>messaging</finalName>
 		<sourceDirectory>src</sourceDirectory>
