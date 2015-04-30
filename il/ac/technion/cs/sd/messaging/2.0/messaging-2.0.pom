@@ -51,7 +51,7 @@
         <artifactId>maven-antrun-plugin</artifactId>
 				<version>1.7</version>
         <executions>
-          <execution>
+            <execution>
             <phase>generate-sources</phase>
             <configuration>
               <tasks>
@@ -63,7 +63,7 @@
             <goals>
               <goal>run</goal>
             </goals>
-          </execution>
+            </execution>
         </executions>
       </plugin>
 			<plugin>
@@ -108,7 +108,8 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.11</version>
+			<version>4.12</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
