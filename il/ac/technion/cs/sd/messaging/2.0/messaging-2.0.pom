@@ -48,6 +48,25 @@
 				</dependencies>
 			</plugin>
 			<plugin>
+        <artifactId>maven-antrun-plugin</artifactId>
+				<version>1.7</version>
+        <executions>
+          <execution>
+            <phase>generate-sources</phase>
+            <configuration>
+              <tasks>
+								<delete file="tests/il/ac/technion/cs/sd/msg/MessengerTest.java"/>
+								<copy file="../hw2/library-common/src/test/java/il/ac/technion/cs/sd/msg/MessengerTest.java"
+								toFile="tests/il/ac/technion/cs/sd/msg/"/>
+              </tasks>
+            </configuration>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+			<plugin>
 				<groupId>com.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
 				<version>0.11</version>
