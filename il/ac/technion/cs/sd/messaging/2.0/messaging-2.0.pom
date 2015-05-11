@@ -57,7 +57,7 @@
               <tasks>
 								<delete file="tests/il/ac/technion/cs/sd/msg/MessengerTest.java"/>
 								<copy file="../hw2/library-common/src/test/java/il/ac/technion/cs/sd/msg/MessengerTest.java"
-								toFile="tests/il/ac/technion/cs/sd/msg/"/>
+								toFile="tests/il/ac/technion/cs/sd/msg/MessengerTest.java"/>
               </tasks>
             </configuration>
             <goals>
