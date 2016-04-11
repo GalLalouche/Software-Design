@@ -4,12 +4,12 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>cs.technion.ac.il.sd</groupId>
-	<artifactId>makefile-external</artifactId>
+	<artifactId>toposort-external</artifactId>
 	<version>0.1</version>
 	<packaging>jar</packaging>
 	<description>An external processor to be invoked by your application</description>
 	<build>
-		<finalName>makefile-external</finalName>
+		<finalName>toposort-external</finalName>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<plugins>
 			<plugin>
@@ -90,12 +90,6 @@
 			<groupId>com.google.inject</groupId>
 			<artifactId>guice</artifactId>
 			<version>4.0</version>
-		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.11</version>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
